@@ -1,0 +1,30 @@
+
+.red:hover {
+    color: rgb(255, 0, 0);
+  }
+.blue:hover {
+    color: rgb(25, 0, 255);
+  }
+ .green:hover {
+    color: rgb(10, 141, 28);
+  }
+   .yellow:hover {
+    color: rgb(229, 255, 0);
+  }
+  p > article {
+    font-weight: bold;
+  }
+  
+  li:nth-child(-n + 4) {
+    border: 2px solid rgb(119, 0, 255);
+    margin-bottom: 1px;
+  }
+  
+  li:nth-child(even) {
+    background-color: rgb(224, 255, 226);
+  }
+  
+  li, p, article {
+    font-size: xx-large;
+    color: brown;
+  }
